@@ -1,0 +1,165 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402160
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402160
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402161
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402161
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402162
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402162
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402163
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402163
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402164
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402164
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402165
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402165
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402166
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402166
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402167
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402167
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402168
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402168
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402169
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402169
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ocp402170
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+  - ReadWriteOnce
+  nfs:
+    path: /ocp_root/ocp402170
+    server: nfsexport01.ti.com
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: thin
